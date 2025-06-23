@@ -19,3 +19,7 @@
     text-transform: uppercase;
     border: none;
 }
+
+.body-background {
+    background-color: beige;
+}
