@@ -68,39 +68,44 @@ section img {
     /* auxiliar */
 .borde {
     border-color: black;
-    border-style: double;
+    border-style: solid;
 }
 
 .grid-contact {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 100px 300px 100px ;
     gap: 10px;
 }
 
 .grid-contact-item {
     align-items: center;
-     justify-content: space-between;
+    justify-content: space-between;
 }
 
-.item1 {
-    grid-column: 1 / 3;
+.grid-contact .item1 {
+    grid-column: 2 / 3;
 }
 
-.item2 {
-    grid-row: 2 / 4;
+.grid-contact .item2 {
+    grid-column: 3 / 3;
 }
 
-.item3 {
-    grid-area: 1 / 3 / 3 / 5;
+.grid-contact .item3 {
+     grid-column: 2 / 4;
+}
+
+.grid-contact .item4 {
+     grid-column: 2 / 4;
+     justify-content: center;
 }
 
 /************* footer *************/
 footer {
     background: rgb(34, 33, 33);
     color: rgb(255, 255, 255);
-    height: 80px;
-    padding-top: 10px;
+    height: 5%;
+    padding-top: 1%;
     width: 100%;
 }
 
