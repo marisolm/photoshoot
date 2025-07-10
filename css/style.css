@@ -59,6 +59,17 @@ section img {
     width: 100%;
 }
 
+.centered {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
 /************* footer *************/
 footer {
     background: rgb(34, 33, 33);
