@@ -9,7 +9,7 @@ header {
     transition: background-color 175ms ease-in;
     background: rgb(34, 33, 33);
     color: rgb(196, 169, 133);
-    height:70px;
+    height:4rem;
     align-items: center;
     width: 100%;
 }
@@ -74,8 +74,8 @@ section img {
 .grid-contact {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: 100px 300px 100px ;
-    gap: 10px;
+    grid-template-rows: 4rem 12rem 4rem ;
+    gap: 3vh;
 }
 
 .grid-contact-item {
@@ -93,6 +93,7 @@ section img {
 
 .grid-contact .item3 {
      grid-column: 2 / 4;
+     size: 100px;
 }
 
 .grid-contact .item4 {
