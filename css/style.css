@@ -12,9 +12,9 @@ header {
 }
 
 .header-left {
-  height: 10%;
-  width: 10%;
-  margin-top: 10px;
+  height: 3rem;
+  width: 12rem;
+  margin-top: 5px;
   vertical-align: middle;
 }
 

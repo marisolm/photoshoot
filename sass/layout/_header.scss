@@ -6,9 +6,9 @@ header {
 }
 
 .header-left {
-    height: 10%;
-    width: 10%;
-    @include marginTop(10px);
+    height: 3rem;
+    width: 12rem;
+    @include marginTop(5px);
     vertical-align: middle;
 }
 
