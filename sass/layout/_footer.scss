@@ -1,0 +1,14 @@
+/************* footer *************/
+footer {
+    background: rgb(34, 33, 33);
+    color: rgb(255, 255, 255);
+    height: 5%;
+    padding-top: 1%;
+    width: 100%;
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 14px;
+    }
+}

@@ -1,5 +1,7 @@
-body {
-  background-color: rgb(218, 218, 218);
+.header-nav, .header-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /************* header *************/
@@ -7,12 +9,6 @@ header {
   transition: background-color 175ms ease-in;
   background: rgb(34, 33, 33);
   color: rgb(196, 169, 133);
-}
-
-.header-nav, .header-center {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .header-left {
@@ -44,15 +40,15 @@ header {
 
 /************* main *************/
 .main-h1 {
-  color: beige;
+  color: #f5f5dc;
 }
 
 .main-p {
-  color: beige;
+  color: #f5f5dc;
 }
 
 .main-btn {
-  color: beige;
+  color: #f5f5dc;
 }
 
 .main-section {
@@ -71,6 +67,25 @@ header {
   text-align: center;
   padding-top: 2%;
   font-size: 2rem;
+}
+
+/************* footer *************/
+footer {
+  background: rgb(34, 33, 33);
+  color: rgb(255, 255, 255);
+  height: 5%;
+  padding-top: 1%;
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+body {
+  background-color: rgb(218, 218, 218);
 }
 
 .grid-contact {
@@ -103,25 +118,6 @@ header {
   justify-content: center;
 }
 
-/************* footer *************/
-footer {
-  background: rgb(34, 33, 33);
-  color: rgb(255, 255, 255);
-  height: 5%;
-  padding-top: 1%;
-  width: 100%;
-}
-footer nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 14px;
-}
-footer nav img {
-  height: 35px;
-  margin-right: 10px;
-}
-
 /*Fonts*/
 .font-regular {
   font-family: "Nanum Gothic Coding", monospace;
@@ -133,6 +129,14 @@ footer nav img {
   font-family: "Nanum Gothic Coding", monospace;
   font-weight: 700;
   font-style: normal;
+}
+
+/*Media queries*/
+@media only screen and (min-width: 900px) {
+  footer nav img {
+    height: 35px;
+    margin-right: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

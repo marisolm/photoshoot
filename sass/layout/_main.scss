@@ -1,0 +1,31 @@
+
+/************* main *************/
+.main-h1{
+    color:$beige;
+}
+
+.main-p{
+    color:$beige;
+}
+
+.main-btn{
+    color:$beige;
+}
+
+.main-section {
+    height: 715px;
+    align-content: center;
+}
+
+.index-background {
+    background-image: url(../img/portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.centered {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 2rem;
+}
