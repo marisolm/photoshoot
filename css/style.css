@@ -4,16 +4,9 @@ body {
 
 /************* header *************/
 header {
-
-  position: relative;
-  z-index: 4000;
   transition: background-color 175ms ease-in;
   background: rgb(34, 33, 33);
   color: rgb(196, 169, 133);
-  height: 4rem;
-  align-items: center;
-  width: 100%;
-
 }
 
 .header-nav, .header-center {
@@ -40,49 +33,44 @@ header {
 }
 
 .header-right {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-right: 30px;
-    border: 2px;
-    border-color: rgb(196, 169, 133);
-    border-radius: 15px;
-    background-color: rgb(196, 169, 133);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 30px;
+  border: 2px;
+  border-color: rgb(196, 169, 133);
+  border-radius: 15px;
+  background-color: rgb(196, 169, 133);
 }
 
 /************* main *************/
-.main-h1{
-    color:beige;
+.main-h1 {
+  color: beige;
 }
 
-.main-p{
-    color:beige;
+.main-p {
+  color: beige;
 }
 
-.main-btn{
-    color: beige;
+.main-btn {
+  color: beige;
 }
+
 .main-section {
   height: 715px;
   align-content: center;
 }
 
 .index-background {
-    background-image: url(../img/portada.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url(../img/portada.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .centered {
   text-align: center;
   padding-top: 2%;
   font-size: 2rem;
-}
-
-/* auxiliar */
-.borde {
-  border-color: black;
-  border-style: solid;
 }
 
 .grid-contact {
@@ -146,3 +134,5 @@ footer nav img {
   font-weight: 700;
   font-style: normal;
 }
+
+/*# sourceMappingURL=style.css.map */
