@@ -4,6 +4,13 @@
   justify-content: space-between;
 }
 
+.roboto-mono-font, * {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 /************* header *************/
 header {
   transition: background-color 175ms ease-in;
@@ -48,7 +55,10 @@ header {
 }
 
 .main-btn {
-  color: #f5f5dc;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
 }
 
 .main-section {
