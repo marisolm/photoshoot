@@ -65,3 +65,17 @@ body {
         
     }
 }
+
+@media (max-width: 899px) {
+    .faq-container {
+    padding: 1rem;
+    }
+
+    .faq-item h3 {
+    font-size: 1.1rem;
+    }
+
+    .faq-item p {
+    font-size: 0.95rem;
+    }
+}
