@@ -34,26 +34,26 @@ body {
 }
 
 .grid-contact .item3 {
-     grid-column: 2 / 4;
-     size: 100px;
+    grid-column: 2 / 4;
+    size: 100px;
 }
 
 .grid-contact .item4 {
-     grid-column: 2 / 4;
-     justify-content: center;
+    grid-column: 2 / 4;
+    justify-content: center;
 }
 
 /*Fonts*/
 .font-regular {
-  font-family: "Nanum Gothic Coding", monospace;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .font-bold {
-  font-family: "Nanum Gothic Coding", monospace;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /*Media queries*/
@@ -62,11 +62,8 @@ body {
     footer nav img {
         height: 35px;
         margin-right:10px;
-        
     }
 }
-
-
 
 @media only screen and (max-width: 899px) {
   /* Nav */

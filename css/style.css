@@ -43,7 +43,7 @@ header {
   border: 2px solid rgb(196, 169, 133);
   border-radius: 15px;
   background-color: rgb(196, 169, 133);
-  color: white;
+  color: black;
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
