@@ -62,8 +62,13 @@ header {
 }
 
 .main-section {
-  height: 715px;
-  align-content: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
 }
 
 .index-background {
