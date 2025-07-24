@@ -54,6 +54,29 @@
     font-size: 2rem;
 }
 
+/* Sección de productos */
+main .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+main .product-grid section {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main .product-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 /**** Preguntas frecuentes ****/
 
 .faq-container {

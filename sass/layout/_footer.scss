@@ -3,7 +3,7 @@ footer {
     background: rgb(34, 33, 33);
     color: rgb(255, 255, 255);
     height: 5%;
-  padding: 1rem 2rem;
+    padding: 1rem 2rem;
     width: 100%;
     nav {
         display: flex;
@@ -16,16 +16,16 @@ footer {
 }
 
 .footer-logos {
-  display: flex;
-  gap: 15px;
-  align-items: center;
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 .footer-logos img {
-  height: 30px;
-  width: 30px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
 }
 
 .footer-logos img:hover {
