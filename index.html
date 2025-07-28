@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Carteras y accessorios de cuero 100%">
-        <title>Cueros & Co.</title>
+        <meta name="description" content="Carteras y accesorios de cuero 100%">
+        <title>Cueros &amp; Co.</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Gothic+Coding:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
@@ -14,15 +14,22 @@
 
     <body class="font-regular">
         <header>
-            <nav class="header-nav">
-                <img class="header-left" src="img/logo.png" alt="cueros&co">
-                <ul class="header-center">
-                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pages/productos.html">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pages/faqs.html">FAQs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
-                </ul>
-                <button class="header-right"><a href="pages/contacto.html" class="nav-link">Suscribite</a></button>
+            <nav class="navbar navbar-expand-lg bg-light position-fixed w-100 z-3">
+	            <div class="container-fluid">
+                    <a href="./index.html"><img class="header-left" src="img/logo.png" alt="cueros y co."></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+		            </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="menu-space nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                            <li class="menu-space nav-item"><a class="nav-link" href="pages/productos.html">Productos</a></li>
+                            <li class="menu-space nav-item"><a class="nav-link" href="pages/faqs.html">FAQs</a></li>
+                            <li class="menu-space nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+                        </ul>
+                        <a href="pages/contacto.html" class="header-right nav-link btn btn-outline-dark">Suscribite</a>
+                    </div>
+                </div>
             </nav>           
         </header>
         <main class="main-section main-index index-background">

@@ -53,7 +53,7 @@
 
 .centered {
     text-align: center;
-    padding-top: 2%;
+    padding-top: 8%;
     font-size: 2rem;
 }
 
@@ -142,27 +142,28 @@ main .product-grid img {
     margin-bottom: 3em;
 }
 
-.grid-contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 2rem;
-    max-width: 100%;
-    margin: auto;
-}
-
 .grid-contact-item {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.grid-contact .item1 {
+    grid-column: 2 / 4;
+}
+
+.grid-contact .item2 {
+    grid-column: 3 / 4;
 }
 
 .grid-contact .item3 {
-    grid-column: 1 / 3;
+    grid-column: 2 / 4;
+    size: 100px;
 }
 
 .grid-contact .item4 {
-    grid-column: 1 / 3;
+    grid-column: 3 / 4;
     display: flex;
     justify-content: center;
 }

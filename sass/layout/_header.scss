@@ -1,15 +1,15 @@
 /************* header *************/
-header {
-    transition: background-color 175ms ease-in;
-    background: rgb(34, 33, 33);
-    color: rgb(196, 169, 133);
-}
 
 .header-left {
     height: 3rem;
     width: 12rem;
     @include marginTop(5px);
     vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu-space{
+    padding-right: 4%;
 }
 
 .header-center {
