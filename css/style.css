@@ -52,6 +52,11 @@
 }
 
 /************* main *************/
+main {
+  flex: 1;
+  padding-top: 10rem;
+}
+
 .main-h1 {
   color: #f5f5dc;
   font-size: 3rem;
@@ -96,13 +101,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  height: 93vh;
   position: relative;
 }
 
 .centered {
   text-align: center;
-  padding-top: 8rem;
   font-size: 2rem;
 }
 
@@ -260,6 +264,8 @@ body {
   background-color: rgb(218, 218, 218);
   height: 100%;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Fonts*/

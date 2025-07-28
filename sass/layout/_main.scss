@@ -1,5 +1,10 @@
 
 /************* main *************/
+main {
+    flex: 1;
+    padding-top: 10rem;
+}
+
 .main-h1{
     color:$beige;
     font-size: 3rem;
@@ -46,14 +51,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 93vh;
     position: relative;
     //display: block;
 }
 
 .centered {
     text-align: center;
-    padding-top: 8rem;
     font-size: 2rem;
 }
 
