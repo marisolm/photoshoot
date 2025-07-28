@@ -177,13 +177,17 @@ main .product-grid img {
   background-color: rgb(170, 145, 110);
 }
 
-.contact-info {
+.contact-section {
   font-size: medium;
   font-weight: 100;
   padding: 3em;
   max-width: 900px;
-  margin: 2rem auto;
+  margin: 2.5rem auto;
   padding: 1rem;
+}
+
+.contact-info {
+  margin-bottom: 3em;
 }
 
 .grid-contact {
