@@ -48,6 +48,10 @@ header {
   cursor: pointer;
 }
 
+.header-right:hover {
+  background-color: rgb(170, 145, 110);
+}
+
 /************* main *************/
 .main-h1 {
   color: #f5f5dc;
