@@ -132,6 +132,7 @@ main .product-grid img {
   height: auto;
   border-radius: 8px;
   object-fit: cover;
+  padding-bottom: 1em;
 }
 
 /**** Preguntas frecuentes ****/
@@ -160,7 +161,7 @@ main .product-grid img {
 }
 
 /**** Contacto ****/
-.btn-contact {
+.btn-contact, .btn-product {
   background-color: rgb(196, 169, 133);
   border: none;
   border-radius: 10px;
@@ -169,6 +170,7 @@ main .product-grid img {
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin: 1em;
 }
 
 .btn-contact:hover {
@@ -176,8 +178,9 @@ main .product-grid img {
 }
 
 .contact-info {
-  font-size: small;
-  padding-bottom: 3em;
+  font-size: medium;
+  font-weight: 100;
+  padding: 3em;
   max-width: 900px;
   margin: 2rem auto;
   padding: 1rem;
@@ -257,8 +260,8 @@ body {
 
 .grid-contact {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: 4rem 12rem 4rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 4rem 8rem 4rem;
   gap: 3vh;
 }
 
