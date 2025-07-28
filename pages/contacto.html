@@ -16,17 +16,25 @@
 
     <body class="font-regular">
         <header>
-            <nav class="header-nav">
-                <img class="header-left" src="../img/logo.png" alt="cueros&co">
-                <ul class="header-center">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                </ul>
-                <button class="header-right"><a href="contacto.html" class="nav-link">Suscribite</a></button>
-            </nav>             
+            <nav class="navbar navbar-expand-lg bg-light position-fixed w-100 z-1">
+	            <div class="container-fluid">
+                    <a href="./index.html"><img class="header-left" src="../img/logo.png" alt="cueros&co"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+		            </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="menu-space nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="menu-space nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                            <li class="menu-space nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
+                            <li class="menu-space nav-item"><a class="nav-link active" aria-current="page" href="#">Contacto</a></li>
+                        </ul>
+                        <button class="header-right"><a href="contacto.html" class="nav-link">Suscribite</a></button>
+                    </div>
+                </div>
+            </nav>           
         </header>
+
         <main class="main-section">
             <h2 class="centered">CONTACTANOS</h2>
 
@@ -37,7 +45,7 @@
                 <br>Además, nuestra comunidad de suscriptores tiene acceso a ofertas, ventas exclusivas y muchos otros beneficios. 
                 <br>Pasa saber como hacerlo, mandanos un mensaje y te contactamos.</p>
             
-                <div class="">
+                <div>
                     <div class="grid-contact-item item1">
                         <label>Nombre</label>
                         <input type="text">   
